@@ -19,10 +19,29 @@ else:
 ![Gambar 09](Image/2bilanganHasilB.PNG)<p>
 <p>
 
+## Latihan 2
+### program mengurutkan data
+-  Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil<p>
+- <b>Program</b><p>
+```bash
+#Program mengurutkan data dari yang terkecil
+print("Program mengurutkan data")
+a = int(input("Bilangan ke-1: "))
+b = int(input("Bilangan ke-2: "))
+c = int(input("Bilangan ke-3: "))
+num = [a, b, c]
+num.sort()
+print("Urutan bilangan: ", num)
+```
+![Gambar 10](Image/MengurutkanData.PNG)<p>
+- <b>Hasil Program</b><p>
+![Gambar 11](Image/HasilMengurutkanData.PNG)<p>
+<P>
+
 ## Program mencari bilangan terbesar dari 3 buah bilangan
 ### Flowchart
 ![Gambar 01](Image/flowchart.PNG)<P>
-### >Langkah-langkah program
+### Langkah-langkah program
 1. Masukkan ketiga varible<p>
 ![Gambar 02](Image/variable.PNG)
 2. Langkah selanjutnya adalah menulis logika untuk mencari angka terbesar, apakah itu a? b? atau c?<P>
